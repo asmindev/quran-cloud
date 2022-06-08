@@ -933,3 +933,8 @@ xdg-basedir@^3.0.0:
 yallist@^2.1.2:
   version "2.1.2"
   resolved "https://registry.npmjs.org/yallist/-/yallist-2.1.2.tgz"
+
+yarn-upgrade-all@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/yarn-upgrade-all/-/yarn-upgrade-all-0.7.1.tgz#167a5a78127c7051c4ed15396bd5f68e3b5cc744"
+  integrity sha512-KoYfSs8jGH5fp4+12ezF3uMMIxx70X8l9efmUvsI0KQmmF4nVssEmXw4Q2aZVrRZHF30b3+cyzMIp8iU6sb9aw==
