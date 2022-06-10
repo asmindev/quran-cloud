@@ -1,25 +1,15 @@
 # Quran - API
 
-### ❌ This live project will be disabled soon ❌
-Because [Vercel Team](https://vercel.com) notice me that my *Hobby Account* has reached its limit. I will disable my ***live API*** soon. Please, don't use ***live API*** that hosted in https://api.quran.sutanlab.id for your ***start-up*** or ***commercial*** use, you're better host this API with yourself, just click the [Deploy button](#deploy-your-own) below.
-
-So, please only use my ***live API*** for ***educational*** or ***personal*** purpose. Thanks for your attention.
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/38345393/172392200-a5297480-ff57-4300-8360-95e3cc7d271d.png" />
-</div>
-
----
 
 > Quran API with media audio ***Syekh. Mishary Rashid Al-Afasy murrotal***.
 
-### Deployed in: https://api.quran.sutanlab.id 
+### Deployed in: https://quran-cloud.vercel.app 
 #### Deploy your own!
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fsutanlab%2Fquran-api)
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/afrizaloky/quran-api/tree/heroku-deploy)
 
 ### Introduction
-This API data source comes from the combination of several parameters from [api.alquran.cloud](https://api.alquran.cloud) and [quran.kemenag.go.id](https://quran.kemenag.go.id) by merging its data to one JSON file with new structure for the better use and performance. Futhermore, this api uses indexed querying techniques with `0(1)` access time which is greatly affects performance.
+This API data source comes from the combination of several parameters from [quran-cloud.vercel.app](https://quran-cloud.vercel.app) and [quran.kemenag.go.id](https://quran.kemenag.go.id) by merging its data to one JSON file with new structure for the better use and performance. Futhermore, this api uses indexed querying techniques with `0(1)` access time which is greatly affects performance.
 
 ### Features
 - [x] Arabic Transliteration
@@ -30,7 +20,7 @@ This API data source comes from the combination of several parameters from [api.
 - [ ] Your requests ?
 
 ### Data Source
-- [api.alquran.cloud](https://api.alquran.cloud) = Quran, Meta Verses, Audio.
+- [quran-cloud.vercel.app](https://quran-cloud.vercel.app) = Quran, Meta Verses, Audio.
 - [quran.kemenag.go.id](https://quran.kemenag.go.id) = Indonesia translations and tafsir verses (short/long).
 - [Al-Quran-ID-API](https://github.com/bachors/Al-Quran-ID-API) = Indonesia tafsir surah [*note: ambiguous revelation type on surah 13 and 55 in this source. So, I changed it to medinan (according to sahih international data)*]
 
@@ -51,11 +41,11 @@ This API data source comes from the combination of several parameters from [api.
 
 ### Performance Measurement & Comparison
 
-#### [api.alquran.cloud](https://api.alquran.cloud)
+#### [quran-cloud.vercel.app](https://quran-cloud.vercel.app)
 
-> Fetching on [Surah 7](https://api.alquran.cloud/surah/7/editions/quran-simple-enhanced,ar.alafasy,en.transliteration,en.sahih,id.indonesian) with audio, en translation & transliteration, id translation . Result: ***1200++ ms***
+> Fetching on [Surah 7](https://quran-cloud.vercel.app/surah/7/editions/quran-simple-enhanced,ar.alafasy,en.transliteration,en.sahih,id.indonesian) with audio, en translation & transliteration, id translation . Result: ***1200++ ms***
 
-[![api.alquran.cloud](https://raw.githubusercontent.com/sutanlab/quran-api/master/screenshots/api.alquran.cloud.jpeg)](https://raw.githubusercontent.com/sutanlab/quran-api/master/screenshots/api.alquran.cloud.jpeg)
+[![quran-cloud.vercel.app](https://raw.githubusercontent.com/sutanlab/quran-api/master/screenshots/api.alquran.cloud.jpeg)](https://raw.githubusercontent.com/sutanlab/quran-api/master/screenshots/api.alquran.cloud.jpeg)
 
 #### [api.quran.sutanlab.id](https://api.quran.sutanlab.id) 
 
